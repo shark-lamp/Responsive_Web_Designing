@@ -1,0 +1,106 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgvysz0nHMcYdOazEQm8K-0ga6yTgeiIEfNw&usqp=CAU" alt="Crystal Dynamics" id="header-img" loading="lazy" width="500" height="300"/>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#game">Shadow of the tomb raider</a>
+        <a class="nav-link" href="#character">Lara Croft</a>
+        <a class="nav-link" href="#game-feature">Features</a>
+      </nav>
+    </header>
+    <main>
+      <section id="game">
+        <h1>Shadow of the tomb raider</h1>
+        <p> Check out the gameplay trailer now!
+          <video src="https://www.youtube.com/watch?v=GJprOON79Ig" id="video"></video>
+        </p>
+        <p>key features:-
+          <ul>
+            <li><h2>Survive Deadly jungle</h2> Lara must thrive if she has to get through the forest if she wishes to have a chance at the goal she seeks.</li>
+            <li><h2>tomb full of secrets</h2> Lara must be the swift as wind and clever as a fox to survive through tombs full of secrets that are such a brain teaser to commoners.</li>
+            <li><h2>City full of lagoons</h2> Lara needs to connect dots, A hidden city awaits! either to reveal its secrets or to spill blood in order to preserve them.</li>
+
+          </ul>
+        </p>
+      </section>
+      <section id="character">
+        <h1>Lara Croft</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSErfPO2N-Y70ik6xHxMyG1AysF6QmPN_NyuQ&usqp=CAU" alt="Lara croft-shadow of the tomb raider"/>
+        <p>Lara Croft is a fictional character and the main protagonist of the video game franchise Tomb Raider. She is presented as a highly intelligent and athletic British archaeologist who ventures into ancient tombs and hazardous ruins around the world. Created by a team at British developer Core Design </p>
+        <p>Lara's story was changed to be the daughter of archaeologist Lord Richard Croft, the Earl of Abingdon, and someone who was quickly identified as a highly talented individual while attending the Abingdon Girls School.The plane crash was changed to when Lara was nine years old, and with her mother, Amelia Croft. While searching for shelter, Lara and her mother took refuge in an ancient Nepalese temple, where Lara witnesses her mother vanish after tampering with an ancient sword. Her father later disappears in search of his wife. This spurs Lara on to seek the reason for her mother's disappearance.</p>
+        <p> After travelling the world, both Lara and Sam end up on an expedition to the Dragon's Triangle off the Japanese coast in search of the lost civilization of Yamatai. It is on this expedition that Lara is stranded on a remote island full of natural, human and supernatural dangers, which enables her to develop from an untested young woman to a survivor. After experiencing the supernatural powers of the ancient world, she comes to realise her father was right about his theories and her hunger for adventure awakens. Although Lara had an independent life, including much international work, she was also able to maintain an active social life and healthy relationship.</p>
+      
+      
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <p>Type in your email if you would like to receive information about new products and services related to Lara Croft here:</p>
+          <label for="email">Enter your email address:<input id="email" name="email" type="email" placeholder="xyz@gmail.com"></input>
+          <input id="submit" type="submit" value="Submit" />
+
+        </form>
+      </section>
+
+      <section id="game-feature">
+        <h1>Game features</h1>
+        <ul>
+          <li><h2>Outfits<h2> <p>Pick your best gear for the venture!</p></li>
+          <li><h2>Weapons</h2><p> Pick from a wide range of weapons - change, modify and upgrade</p></li>
+          <li><h2>Moves</h2<p>  Put your best foot forward, learn and perform various tricks on your vengeance</p></li>
+        </ul>
+‍
+
+      </section>
+      
+      <h3>Hop on to experience the feeling of real adventure</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVRUCKGLEWF96Q-kpSvoP45omFMIoOF_QgpQ&usqp=CAU" alt="Lara Croft"/>
+      <p>Be thrilled by playing one of the best adventure game ever</p>
+      <img />
+      <p> Play the most thrill game, where you have to unleash the secrets contained in the realm of men.</p>
+
+      <article> There are many things yet to be discovered!</article>
+      
+
+
+    
+      </main>
+    <footer></footer>
+  </body>
+<html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media only screen and (min-width: 600px){
+  header{
+    display:relative;
+    
+    font-style:sans-serif;
+  }
+}
+
+#image{
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+
+header{
+  position:fixed;
+  width:100%;
+}
+
+
+
+** end of undefined **
+
