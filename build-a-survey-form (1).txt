@@ -1,0 +1,130 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <header>
+    <h1 id="title">Survey form</h1>
+    <p id="description">Fill the following form with the required information.</p>
+    </header>
+    <section>
+    
+    <form id="survey-form" class="survey-form">
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required/></label>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email address" required/></label>
+      <label id="number-label">Number: <input id="number" type="number" min="8" max="100" placeholder="Enter your Mobile number"/></label>
+      
+      
+      
+      <label for="gender-label">Gender:
+        <select id="dropdown" name="gender">
+          <option value="">(Select your gender)</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+          <option value="3">other</option>
+        </select>
+      </label>
+      
+      
+      
+      <fieldset>
+      <legend>What type of products do you prefer?</legend>
+        <label for="Unisex-products"><input id="unisex-products" type="radio" name="product-type" value="unisex" class="inline"/> I prefer Unisex products</label>
+        <label for="Gendered-products"><input id="gendered-products" type="radio" name="product-type" value="gendered" class="inline"/> I prefer Gendered products</label>
+      </fieldset>
+      
+
+
+      
+      <fieldset>
+      <legend>What product range do you prefer?</legend>
+        <label for="0-1000Rs." ><input id="range-1" type="checkbox" name="product-range" value="0-1000Rs." class="inline"/>0-1000Rs.</label>
+        <label for="1000-5000Rs." ><input id="range-2" type="checkbox" name="product-range" value="1000-5000Rs." class="inline"/>1000-5000Rs.</label>
+        <label for="5000-20,000Rs." ><input id="range-3" type="checkbox" name="product-range" value="5000-20,000Rs." class="inline"/>5000-20,000Rs.</label>
+      </fieldset>
+      
+
+
+      <section>
+      <label for="comments">Any comments:
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="If you have any further comments, type here..."></textarea>
+      </label>
+      </section>
+      <input type="submit" id="submit"/>
+ 
+
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-image: url(https://media.istockphoto.com/photos/cute-children-or-baby-card-white-clouds-on-the-light-blue-wooden-picture-id1090975842?b=1&k=20&m=1090975842&s=170667a&w=0&h=FMrfj3kIr1PPgda6_JWgtWS8ZvW6xyw74p8Au1MMnu0=);
+  font-family:serif;
+  padding:20px;
+  text-align:cleft;
+}
+
+h1{
+  font-size: 50px;
+  margin-top:0;
+  margin:15px;
+  text-align:center;
+}
+
+form{
+  width:60vw;
+  max-width:500px;
+  min-width:30px;
+  margin:0 auto;
+  padding-bottom:2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+
+input,textarea,select{
+  margin:10px 0 0 0;
+  width:100%;
+  min-height:2em;
+  display:inline;
+}
+
+.inline{
+  width: unset;
+  margin:0 0.5em 0 0;
+  vertical-align:middle;
+  display:inline;
+}
+
+fieldset{
+  margin:0.8rem 0;
+}
+
+*/div{
+  display:inline;
+  width:unset;
+  bottom-margin:0.9em
+
+}
+
+
+
+
+
+
+
+** end of undefined **
+
