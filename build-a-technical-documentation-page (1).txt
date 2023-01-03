@@ -1,0 +1,106 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <title>JavaScript and Java</title>
+</head>
+  <main id="main-doc">
+ 
+  <nav id="navbar">
+    <header id="Javascript_and_Java">Javascript_and_Java</header>
+    <a href="#Variables" class="nav-link" >Variables</a>
+    <a href="#Constants" class="nav-link">Constants</a>
+    <a href="#Data_types" class="nav-link">Data types</a>
+    <a href="#Loops" class="nav-link">Loops</a>
+    <a href="#Function_declaration" class="nav-link">Function declaration</a>
+  </nav>
+  <section class="main-section" id="Variables">
+    <header id="Variables">Variables</header>
+    <p> Variables are symbolic names for values in your application.</p>
+    <p>The names of variables, called identifiers, conform to certain rules.</p>
+    <code>var x = 42.</code>
+    <ol>There are twp types of variables:- <li>Local variables</li><li>Global variables</li></ol>
+  </section>
+  <section class="main-section" id="Constants">
+    <header id="Constants">Constants</header>
+    <p>These are read only variables.</p>
+    <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.</p>
+    <code>const PI = 3.14;</code>
+    
+  </section>
+  <section class="main-section" id="Data_types">
+    <header id="Data_types">Data types</header>
+    <p>These define the types in which data can be stored.</p>
+    <p></p>
+    <code></code>
+    <ol>These are of 7 types:
+      <li>Boolean<p>-true and false</p></li>
+      <li>null<p>- A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+      <li>undefined<p>- A top-level property whose value is undefined.</p></li>
+      <li>Number<p>-42 or 3.14159.</p></li>
+      <li>String<p>-"Howdy"</p></li>
+      <li>Symbol <p>-A data type whose instances are unique and immutable.</p></li>
+      <li>Objects (and functions)-secondary data type-<p>-Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p></li>
+      </ol>
+  </section>
+  <section class="main-section" id="Loops">
+    <header id="Loops">Loops</header>
+    <p>It is execution of one or a few lines of code repeatedly before or after checking conditions.</p>
+    <p>It saves time and helps in increasing efficiency.</p>
+    <code>if (condition_1) { statement_1; } else if (condition_2) {
+statement_2; } else if (condition_n) { statement_n; } else {
+statement_last; }</code>
+    <code>while (condition) statement</code>
+    
+    <ol>Two types are:
+      <li>if...else statement</li>
+      <li>while statement</li></ol>
+  </section>
+  <section class="main-section" id="Function_declaration">
+    <header id="Function_declaration">Function declaration</header>
+    <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>
+    
+    <ul><li>The name of the function.</li><li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li><li>The JavaScript statements that define the function, enclosed in curly brackets, { }.</li></ul>
+    <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
+    <code>function square(number) { return number * number; }</code>
+  </section>
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+.navlink{
+  text-align:left;
+
+}
+
+@media(prefers-reduced-motion: no-preference){
+  *{
+    scroll-behavior:smooth;
+  }
+  #navbar{
+    background-color:#f1be32;
+  }
+ 
+}
+
+
+@media(min-width:300px and max-width:1600px ){
+  #navbar{
+    padding:22px;
+  }
+
+}
+
+#navbar{
+  margin-bottom:14px;
+  text-align:left;
+}
+
+** end of undefined **
+
