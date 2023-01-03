@@ -1,0 +1,39 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css"> 
+<main id="main">
+  <title id="title">Tribute page - Alan Tuning</title>
+  <h1>Tribute page - Alan Tuning</h1>
+  <div id="img-div">
+  <a href="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" ><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" id="image" max-width="100%" height="auto" ></a>
+  <figcaption id="img-caption">Alan Tuning</figcaption>
+  </div>
+  <p id="tribute-info">Alan Mathison Turing(/ˈtjʊərɪŋ/; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. He is widely considered to be the father of theoretical computer science and artificial intelligence.</p>
+  <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Alan_Turing">Click here for more information</a>
+
+</main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#img-div{
+  display:flex;
+  justify-content:center;
+  width:383px;
+
+  
+
+}
+
+#image{
+  display:block;
+  max-width:100%;
+ 
+}
+
+** end of undefined **
+
